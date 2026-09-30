@@ -1,0 +1,19 @@
+# Environment
+.env
+comiccraft-env/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Generated artifacts
+static/panels/*.png
+static/panels/*.jpg
+static/exports/*.pdf
+!static/panels/.gitkeep
+!static/exports/.gitkeep
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
